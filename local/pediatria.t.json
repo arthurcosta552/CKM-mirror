@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "15f051172c0f129e6c3a249ea206e297",
+      "MD5-CAM-1.0.1" : "43d1069393c62152b9de9a0dc64a5e74",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
     },
     "details" : {
@@ -69,7 +69,7 @@
               "children" : [ {
                 "@type" : "C_ARCHETYPE_ROOT",
                 "rmTypeName" : "CLUSTER",
-                "occurrences" : "0..1",
+                "occurrences" : "0..0",
                 "nodeId" : "at0004.1",
                 "attributes" : [ ],
                 "attributeTuples" : [ ],
@@ -178,7 +178,214 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "D56C36DA9487EC8BF95F06AB8EAAAF05"
       },
-      "details" : { }
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Erfassung der Ergebnisse für jeden Teilparameter und deren Gesamtsumme für den Apgar-Score.",
+          "keywords" : [ "Neugeborenes", "Index", "Score", "Geburt", "Säugling", "neonatal", "Beurteilung" ],
+          "use" : "Zur Erfassung der Ergebnisse für jeden Teilparameter und deren Gesamtsumme für den Apgar-Score.\r\n\r\nDieser Archetyp wurde entwickelt, um die explizite Erfassung von Apgar-Scores zu Zeitpunkten von 1, 2, 3, 5 und/oder 10 Minuten ab dem Zeitpunkt der Geburt zu unterstützen, sowie bei Bedarf weitere Ereignisse.\r\n\r\nÜblicherweise wird der Apgar-Score nach 1 und 5 Minuten dokumentiert; weitere Scores können je nach klinischer Indikation aufgezeichnet werden. Es ist möglich, den Apgar-Score zu jedem Zeitpunkt nach der Geburt mit diesem Archetyp zu erfassen.\r\n\r\nIn der klinischen Praxis ist es üblich, alle 5 Parameter plus den Gesamtwert aufzuzeichnen. Dieser Archetyp erlaubt jedoch die Aufzeichnung von Teilinformationen, wenn dies alles ist, was z. B. aus historischen Daten verfügbar ist.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ru" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ru"
+          },
+          "purpose" : "*To record the results for each component parameter and their total sum for the Apgar score. (en)",
+          "keywords" : [ "новорожденный", "оценка", "балл", "младенец", "оценка состояния" ],
+          "use" : "*Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fi" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fi"
+          },
+          "purpose" : "*To record the results for each component parameter and their total sum for the Apgar score. (en)",
+          "keywords" : [ "vastasyntynyt, indeksi, pistemäärä, syntymä, arviointi" ],
+          "use" : "*Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera resultaten för varje komponentparameter och deras totala summa för Apgarskalan.",
+          "keywords" : [ "nyfödd", "index", "poäng", "födelse", "spädbarn", "nyfödd", "bedömning", "apgar", "skala", "apgarskala", "apgarpoäng" ],
+          "use" : "Används för att registrera resultaten för varje komponentparameter och deras totala summa för Apgarskalan.\r\n\r\nDen här arketypen har utformats för att stödja den explicita registreringen av Apgarpoäng vid 1, 2, 3, 5 och/eller 10 minuters ålder på nyfödda barn, inklusive ytterligare händelser efter behov.\r\n\r\nVanlig praxis är att dokumentera Apgarpoängen efter 1 och 5 minuter; ytterligare poäng kan dock registreras. Med denna arketyp är det även möjligt att registrera Apgarpoängen när som helst efter födseln.\r\n\r\nVanlig klinisk praxis är att registrera samtliga 5 parametrar inklusive totala summan. Denna arketyp möjliggör dock registrering av partiell information, om det endast är det som finns tillgängligt från exempelvis historiska data.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "*To record the results for each component parameter and their total sum for the Apgar score. (en)",
+          "keywords" : [ "*recém-nascido(s), recém-nato(s)", "*índice", "*escore, escala", "*nascimento(s),", "*bebê(s)", "*neonato(s)", "*avaliação(ões)" ],
+          "use" : "*Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record the results for each component parameter and their total sum for the Apgar score.",
+          "keywords" : [ "newborn", "index", "score", "birth", "infant", "neonate", "assessment" ],
+          "use" : "Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ar-sy" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ar-sy"
+          },
+          "purpose" : "*To record the results for each component parameter and their total sum for the Apgar score. (en)",
+          "keywords" : [ "حديث الولادة", "معامل", "الحرز", "الولادة/الوضع", "الرضيع", "حديث الولادة", "تقييم" ],
+          "use" : "*Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es-cl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es-cl"
+          },
+          "purpose" : "*To record the results for each component parameter and their total sum for the Apgar score. (en)",
+          "keywords" : [ "score", "apgar", "index", "recién nacido" ],
+          "use" : "*Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "zh-cn" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "zh-cn"
+          },
+          "purpose" : "旨在记录每个分量参数的结果及其 Apgar 分数的总和。",
+          "keywords" : [ "新生儿", "指标", "指数", "分数", "评分", "分值", "得分", "出生", "生产", "婴幼儿", "婴儿", "新生婴儿", "评价", "评估" ],
+          "use" : "用于记录每个分量参数的结果及其 Apgar 评分的总和。\r\n\r\n当前原始型旨在支持在 1、2、3、5 和/或 10 分钟时间点与出生时间相差的时间点明确记录 Apgar 评分，并根据需要添加其他事件。\r\n\r\n通常的做法是在 1 分钟和 5 分钟时记录 Apgar 评分；根据临床指征，可以记录进一步的评分。 可以使用此原始型在出生后的任何时间记录 Apgar 评分。\r\n\r\n常见的临床做法就是记录所有 5 个参数并且还有总分，但是如果这是所有可用的信息，例如历史数据之中的可用信息，则此原始型将允许记录任何并不完整的部分信息。",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Registrar los resultados de cada parámetro componente y su suma total para la puntuación de Apgar.",
+          "keywords" : [ "recién nacido", "índice", "puntuación", "nacimiento", "lactante", "neonato", "evaluación" ],
+          "use" : "Úselo para registrar los resultados de cada parámetro componente y su suma total para la puntuación de Apgar.\r\n\r\nEste arquetipo ha sido diseñado para admitir el registro explícito de las puntuaciones de Apgar en puntos de 1, 2, 3, 5 y/o 10 minutos en el tiempo desde el momento del nacimiento, además de eventos adicionales según sea necesario.\r\n\r\nLa práctica habitual es documentar la puntuación de Apgar al minuto 1 y 5; Se pueden registrar puntuaciones adicionales según esté clínicamente indicado. Es posible registrar la puntuación de Apgar en cualquier momento después del nacimiento utilizando este arquetipo.\r\n\r\nLa práctica clínica común es registrar los 5 parámetros más el total; sin embargo, este arquetipo permite registrar cualquier información parcial, si eso es todo lo que está disponible, por ejemplo, a partir de datos históricos.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere resultatene for hver komponentparameter og deres totale sum for Apgar skår.",
+          "keywords" : [ "Nyfødt", "Spebarn", "Indeks", "score", "fødsel", "neonatal", "vurdering", "respirasjon", "hud farge", "tonus", "refleks", "muskeltonus", "hjertefrekvens" ],
+          "use" : "Brukes for å registrere resultatene for hver komponentparameter og deres totale sum for Apgar skår.\r\n\r\nDenne arketypen er designet for å støtte den eksplisitte registreringen av Apgar-resultater ved 1, 2, 3, 5 og/eller 10 minutter fra fødselstidspunktet, pluss ytterligere hendelser etter behov.\r\n\r\nVanlig praksis er å dokumentere Apgar skår etter 1 og 5 minutter; ytterligere skårer kan registreres som klinisk indisert. Det er mulig å registrere Apgar skår når som helst etter fødselen ved å bruke denne arketypen.\r\n\r\nVanlig klinisk praksis er å registrere alle 5 parametere pluss totalen, men denne arketypen tillater at all delinformasjon registreres, hvis det er alt som er tilgjengelig for eksempel fra historiske data.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fa" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fa"
+          },
+          "purpose" : "*To record the results for each component parameter and their total sum for the Apgar score. (en)",
+          "keywords" : [ "تازه بدنیا آمده", "شاخص", "نمره", "تولد", "شیر خوار", "نوزاد", "ارزیابی" ],
+          "use" : "*Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "purpose" : "*To record the results for each component parameter and their total sum for the Apgar score. (en)",
+          "keywords" : [ "pasgeborene", "index", "score", "geboorte", "kind", "neonaat", "beoordeling", "baby" ],
+          "use" : "*Use to record the results for each component parameter and their total sum for the Apgar score.\r\n\r\nThis archetype has been designed to support the explicit recording of Apgar scores at 1, 2, 3, 5 and/or 10 minute points in time offset from the time of birth, plus additional events as required.\r\n\r\nUsual practice is to document the Apgar score at 1 and 5 minutes; further scores can be recorded as clinically indicated.  It is possible to record the Apgar score at any time after birth using this archetype.\r\n\r\nCommon clinical practice is to record all 5 parameters plus the total, however this archetype allows any partial information to be recorded, if that is all that is available for example from historical data. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Per registrar els resultats de cada paràmetre de component i la seva suma total per a la puntuació d'Apgar.",
+          "keywords" : [ "nounat", "índex", "puntuació", "naixement", "infant", "lactant", "valoració" ],
+          "use" : "Utilitzeu-lo per registrar els resultats de cada paràmetre de component i la seva suma total per a la puntuació d'Apgar.\r\n\r\nAquest arquetip ha estat dissenyat per donar suport a l'enregistrament explícit de puntuacions d'Apgar a 1, 2, 3, 5 i/o 10 minuts des del moment del naixement, a més d'esdeveniments addicionals segons sigui necessari.\r\n\r\nLa pràctica habitual és documentar la puntuació d'Apgar a 1 i 5 minuts; es poden registrar puntuacions addicionals segons s'indiqui clínicament. És possible registrar la puntuació d'Apgar en qualsevol moment després del naixement mitjançant aquest arquetip.\r\n\r\nLa pràctica clínica habitual és registrar els 5 paràmetres més el total, però aquest arquetip permet registrar qualsevol informació parcial, si això és tot el que es disposa, per exemple, de dades històriques.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.apgar.v2",
     "differential" : true,
@@ -207,16 +414,6 @@
               "nodeId" : "at0003.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "data",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ITEM_TREE",
-                  "nodeId" : "at0001.1",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                } ]
-              }, {
-                "@type" : "C_ATTRIBUTE",
                 "rmAttributeName" : "offset",
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
@@ -238,6 +435,16 @@
                       } ]
                     } ]
                   } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0001.1",
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -266,17 +473,6 @@
               "nodeId" : "at0027.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "data",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ITEM_TREE",
-                  "nodeId" : "at0001.3",
-                  "targetPath" : "/data[at0002]/events[at0003]/data[at0001.1]",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                } ]
-              }, {
-                "@type" : "C_ATTRIBUTE",
                 "rmAttributeName" : "offset",
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
@@ -300,6 +496,17 @@
                   } ],
                   "attributeTuples" : [ ]
                 } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0001.3",
+                  "targetPath" : "/data[at0002]/events[at0003]/data[at0001.1]",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
               } ],
               "attributeTuples" : [ ]
             }, {
@@ -308,17 +515,6 @@
               "occurrences" : "0..0",
               "nodeId" : "at0028.1",
               "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "data",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ITEM_TREE",
-                  "nodeId" : "at0001.4",
-                  "targetPath" : "/data[at0002]/events[at0003]/data[at0001.1]",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                } ]
-              }, {
                 "@type" : "C_ATTRIBUTE",
                 "rmAttributeName" : "offset",
                 "children" : [ {
@@ -343,6 +539,17 @@
                   } ],
                   "attributeTuples" : [ ]
                 } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0001.4",
+                  "targetPath" : "/data[at0002]/events[at0003]/data[at0001.1]",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
               } ],
               "attributeTuples" : [ ]
             }, {
@@ -351,17 +558,6 @@
               "occurrences" : "0..0",
               "nodeId" : "at0031.1",
               "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "data",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "ITEM_TREE",
-                  "nodeId" : "at0001.5",
-                  "targetPath" : "/data[at0002]/events[at0003]/data[at0001.1]",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ ]
-                } ]
-              }, {
                 "@type" : "C_ATTRIBUTE",
                 "rmAttributeName" : "offset",
                 "children" : [ {
@@ -384,6 +580,17 @@
                       } ]
                     } ]
                   } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "data",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ITEM_TREE",
+                  "nodeId" : "at0001.5",
+                  "targetPath" : "/data[at0002]/events[at0003]/data[at0001.1]",
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -646,7 +853,38 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "AB13CDBAC10337B1D0AB6510812B0137"
       },
-      "details" : { }
+      "details" : {
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "Representação de outros detalhes relativos a um documento de identificação de uma pessoa/organização",
+          "keywords" : [ "serviço demográfico", "identificador" ],
+          "use" : "Usado em serviçoS demográficos para registrar outros detalhes relativos a um documento de identificação de uma pessoa/organização",
+          "copyright" : "© copyright (c) 2009 openEHR Foundation, openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "Representation of other details about a person/organization identifier",
+          "keywords" : [ "demographic service", "identifier" ],
+          "use" : "Used in demographic services to register other details about a person/organisation identifier",
+          "copyright" : "© copyright (c) 2009 openEHR Foundation, openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-DEMOGRAPHIC-CLUSTER.identifier_other_details.v0",
     "differential" : true,
@@ -712,7 +950,243 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "FF43C658C2F6609F551AFBB698BC238A"
       },
-      "details" : { }
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Darstellung des Gewichtes eines Individuums, sowohl exakt als auch geschätzt.",
+          "keywords" : [ "Gewicht", "Zunahme", "Verlust", "erhöhen, ansteigen", "verringern", "Masse", "schätzen", "tatsächlich" ],
+          "use" : "Zur Darstellung des tatsächlichen Körpergewichts, auch wenn das Individuum einen Körperteil (angeboren oder später amputiert) vermisst. Sofern benötigt, kann dies im Datenelement \"Einflussfaktoren\" dargestellt werden. Dies ist der Archetyp, der gewöhnlicherweise für eine typische Gewichtsmessung benutzt werden sollte, z.B. bei Selbstmessung durch das Individuum zu Hause, durch einen Kliniker im Krankenhaus, oder einen Fitness-Trainer in einem Fitness-Center.\r\n\r\nDer Archetyp kann auch benutzt werden, um eine Schätzung des Körpergewichts zu dokumentieren, wenn es nicht möglich ist, das Gewicht genau zu bestimmen - z.B. bei der Messung des Gewichts eines nicht kooperativen Kindes, oder bei einem ungeborenen Fötus (hier ist das 'Subjekt der Daten' der Fötus und die Dokumentation erfolgt in der Akte der Mutter). Dass es sich um eine Schätzung handelt wird in diesem Archetyp nicht explizit modelliert, da das openEHR-Referenzmodell dies direkt für 'Quantity'-Datentypen unterstützt. In einer konkreten klinischen Anwendung könnte die Benutzerschnittstelle es dem Kliniker z.B. über eine Checkbox ermöglichen, zu dokumentieren, dass es sich um eine Schätzung handelt.\r\n\r\nZur Darstellung der Gewichtsänderung, d.h. entweder Gewichtsverlust oder Gewichtszunahme. Dies kann derzeit modelliert werden, indem \"Beliebiges Ereignis\" auf ein Intervall mit der zugehörigen mathematischen Funktion \"Erhöhen\" oder \"Verringern\" beschränkt wird.",
+          "misuse" : "Nicht zur Darstellung eines berechneten Körpergewichts verwenden, z. B. zur Schätzung des Körpergewichts einer Person mit einem oder mehreren fehlenden Gliedmaßen. Ein berechnetes Körpergewicht kann auf einem Teil oder dem gesamten gemessenen Körpergewicht, anderen Körpermaßen und einem Algorithmus basieren. Verwenden Sie zu diesem Zweck andere OBSERVATION-Archetypen.\r\n\r\nNicht zur Darstellung eines Objekts oder eines Teils des Körpers.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ru" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ru"
+          },
+          "purpose" : "Для записи массы тела человека: фактической или приблизительной.",
+          "keywords" : [ "вес", "масса тела", "прибавка", "потеря", "увеличение", "уменьшение", "оценка", "актуально" ],
+          "use" : "Использовать для записи фактического измерения массы тела, включая случаи отсутсвия части(-ей) тела, врожденное или после хирургического удаления. Отметка о физической неполноте тела может быть зарегистрирована в элементе данных \"стохастическая погрешность\", если требуется. Это - обычный архетип, используемый для типичного измерения веса, например самоизмеренного человеком дома, измерение клинициста в клинике/больнице, или фитнес-инструктором в гимнастическом зале. \r\n\r\nМожет также использоваться для записи примерного измерения массы тела в клиническом сценарии, где не возможно взвешивание - например, сопротивляющийся ребёнок, или для оценики веса внутриутробного плода (где 'предметом данных' является плод, и регистрация происходит в пределах записи о состоянии здоровья матери). Это не оформлено явно в архетипе, поскольку модель openEHR позволяет атрибут «приблизительно» для любого типа данных «количество». При работе, например, прикладной пользовательский интерфейс позволяет клиницистам выбирать соответствующую отметку, смежную с полем данных «вес», чтобы указать, что зарегистрированный вес - приблизительный, а не фактический. \r\n\r\nИспользовать для записи изменения веса, то есть, потери веса или увеличения веса.\r\nЭто может в настоящее время моделироваться, привязывая 'каждый случай' к интервалу со связанной математической функцией увеличения или уменьшения, соответственно.",
+          "misuse" : "Не использовать для записи первого веса младенца после рождение, которое обозначено как 'вес при рождении' - использовать специализацию этого архетипа OBSERVATION.body_weight-birth. \r\nНе использовать для записи массы тела человека с протезами / приспособлениями для вычисление полной массы тела человека с ампутацией, основанной на других измерениях и алгоритме  - использовать архетип OBSERVATION.body_weight-adjusted.\r\nНе использовать, чтобы сделать запись веса части тела или объекта.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera en individs kroppsvikt - både den faktiska och den uppskattade.",
+          "keywords" : [ "vikt", "uppgång", "viktuppgång", "ökning", "viktökning", "minskning", "viktminskning", "viktnedgång", "massa", "uppskattning", "faktisk" ],
+          "use" : "Används för att registrera den faktiska kroppsvikten, även när individen saknar en kroppsdel av medfödda orsaker eller till följd av kirurgiskt avlägsnande. En redogörelse av kroppens fysiska ofullständighet kan vid behov registreras i fältet \"Möjliga felkällor\". \r\n\r\nAnvänds för att registrera en typisk vägning, exempelvis när individen väger sig själv hemma, vägs av vårdpersonal på en klinik eller ett sjukhus eller vägs av en instruktör på ett gym. \r\n\r\nAnvänds även för att registrera en uppskattning av kroppsvikten i en klinisk situation där det inte är möjligt att mäta exakt kroppsvikt, exempelvis vid vägning av ett icke samarbetsvilligt barn eller vid uppskattning av ett ofött fosters vikt (där subjektet för mätningen är fostret och registreringen sker i moderns patientjournal). Detta modelleras inte explicit i arketypen eftersom openEHRs referensmodell tillåter uppskattning av datatypen kvantitet (Magnitude_status sätts till värdet \"~\"). Exempelvis kan det i applikationens användargränssnitt finnas en kryssruta intill vikt-fältet som vårdpersonalen kan markera för att indikera att den registrerade vikten är en uppskattning och inte en faktisk vikt. \r\n\r\nAnvänds för att registrera viktförändring, dvs. antingen viktnedgång eller viktuppgång. Detta kan modelleras genom att begränsa \"Ospecificerad händelse\" till ett intervall med tillhörande matematisk funktion av uppgång eller förlust.",
+          "misuse" : "Ska inte användas för att registrera den justerade kroppsvikten, exempelvis en uppskattning av kroppsvikten för en individ som saknar en eller flera lemmar. En justerad kroppsvikt kan baseras på uppmätt kroppsvikt, andra kroppsmått eller användning av en algoritm. Använd istället andra OBSERVATION-arkeyper, exempelvis OBSERVATION.body_weight-adjusted. \r\n\r\nSka inte användas för att registrera vikten av en kroppsdel eller ett objekt. ",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fi" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fi"
+          },
+          "purpose" : "Henkilön painon tallentamiseen - sekä mitatun että arvioidun.",
+          "keywords" : [ "paino, kasvu, menetys, lasku, massa, arvio, todellinen" ],
+          "use" : "Käytetään todellisen painon tallentamiseen, myös silloin, kun henkilöstä puuttuu kehonosa synnynnäisen syyn tai kirurgisen poiston jälkeen. Huomautus, joka identifioi kehon fyysisen epätäydellisyyden, voidaan tallentaa tarvittaessa \"Sekoittavat tekijät\" -dataelementtiin. Tämä on tavanomainen arkkityyppi, jota käytetään tyypilliseen painon mittaamiseen, esimerkiksi henkilön itsensä mittaamana kotona tai ammattihenkilön mittaamana sosiaali- ja terveydenhuollon yksikössä.\r\n\r\nVoidaan käyttää myös kehon painonmittauksen arvioimiseen kliinisessä skenaariossa, jossa ei ole mahdollista mitata tarkasti painoa - esimerkiksi yhteistyökyvyttömän lapsen painon mittaaminen tai arvioimalla syntymättömän sikiön painoa (sikiön painon tallennus tapahtuu äidin terveystietoihin). Tätä ei ole mallinnettu arkkityypissä, koska openEHR-referenssimalli sallii likiarvot mille tahansa Quantity-tietotyypille määrittelemällä attribuutin Magnitude_status arvoon '~'. Sovelluksen käyttöliittymä voi tarjota asianmukaisen valintaruudun \"Paino\"-kentän vieressä, minkä avulla käyttäjä voi osoittaa, että tallennettu paino on likiarvio eikä todellinen. \r\n\r\nKäytetään painonmuutoksen tallentamiseen, joka on joko painonpudotusta tai -nousua. Tämä voidaan tällä hetkellä mallintaa rajoittamalla \"mikä tahansa tapahtuma\" aikaväliksi , johon liittyy matemaattinen lisäyksen tai pienenemisen funktio tarpeen mukaan.",
+          "misuse" : "Ei tule käyttää lasketun painon kirjaamiseen, kuten yhden tai useamman raajansa menettäneen henkilön painoarvioon. Laskettu paino voi perustua osaksi tai kokonaan mitattuun painoon, muihin kehon mittauksiin ja algoritmiin. Käytä tähän tarkoitukseen muita HAVAINTO-arkkityyppejä.\r\n\r\nEi tule käyttää ruumiinosan tai muun objektin painon tallentamiseen.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "Para registrar o peso corporal de um indivíduo - tanto real como aproximado.\r\n",
+          "keywords" : [ "peso", "ganho", "perda", "aumentar", "diminuir", "massa", "estimativa", "real" ],
+          "use" : "Usado para gravar a medição real de peso corporal, inclusive quando o indivíduo tem faltando uma parte do corpo devido a uma causa congênita ou após a remoção cirúrgica. A indicação da imperfeição física do corpo pode ser registrada no elemento 'fatores de erro', se necessário.\r\nEste é o arquétipo para ser utilizado para uma medição típica de peso, por exemplo, auto-medido pelo indivíduo em casa, uma medida médico em uma clínica / hospital, ou um instrutor de fitness em um ginásio. \r\n\r\nTambém pode ser usado para a gravar uma aproximação da medição do peso corporal em um cenário clínico no qual não é possível medir com precisão o peso do corpo - por exemplo, pesar uma criança inquieta, ou estimar o peso de um feto (quando 'sujeito' é um feto e a gravação ocorre no registro da saúde da mãe). Isso não é modelado explicitamente no arquétipo como o modelo de referência da openEHR permite que o atributo de aproximação para qualquer tipo de dados quantitativos. Na execução, por exemplo, uma interface de usuário do aplicativo pode permitir que os clínicos para selecionar uma caixa de seleção devidamente setados junto ao campo de dados de peso, indicando que o peso verificado é uma aproximação, ao invés de reais. \r\n\r\nUsada para gravar a mudança de peso, ou seja, qualquer perda ou ganho de peso. Pode ser modelado por restringir a 'qualquer evento' a um intervalo associado com funções matemáticas de aumentar ou diminuir, conforme o caso.\r\n",
+          "misuse" : "Não deve ser utilizado para gravar o primeiro peso de um bebê logo após o nascimento, que é designado como o seu 'peso' - use a especialização de seu nascimento arquétipo OBSERVATION.body_weight-birth.\r\nNão deve ser usado para registrar o peso do corpo ajustado por exemplo, um cálculo do peso de corpo inteiro de uma pessoa com amputação de membros, com base em medições de outro corpo e um algoritmo -OBSERVATION.body_weight-adjusted.\r\n\r\nNão deve ser usado para registrar o peso de um objeto ou parte do corpo.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ar-sy" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ar-sy"
+          },
+          "purpose" : "لتسجيل وزن الجسم للشخص - بما في ذلك الوزن الحقيقي و المُقَدَّر",
+          "keywords" : [ "الوزن", "الزيادة/الكسب", "الفاقد", "الزيادة", "النقصان", "الكتلة", "التقدير", "الحقيقي" ],
+          "use" : "يستخدم لتسجيل القياس الحقيقي لوزن الجسم, بما في ذلك ما إذا كان الشخص قد فقد جزءا من جسمه لسبب خَلقي وراثي, أو بعد استئصال جراحي.\r\nبيان يقوم بتعريف مدى عدم الاكتمال البدني, و يمكن تسجيله تحت عنصر البيانات (العوامل المربكة), حسب الحاجة.\r\nو هذا هو النموذج المعتاد الذي يستخدم للتسجيل النمطي للوزن, مثلا إذا قاسه الشخص لنفسه في المنزل, أو إذا قام الطبيب السريري بالقياس في العيادة/المستشفى, أو المُدرِّب البدني في القاعة الرياضية.\r\n\r\nيمكن أيضا أن يستخدم لتسجيل تقدير قياس وزن الجسم في سيناريو سريري حيث لا يمكن قياس وزن الجسم بشكل دقيق - مثلا, قياس وزن طفل غير متعاون, أو تقدير وزن جنين قبل الولادة - حيث يكون الهدف هو قياس وزن الجنين في حين يتم تسجيل ذلك في السجل الطبي للأم\r\n\r\nو لا يتم وضع هذا في نموذج صريح حيث يسمح النموذج المرجعي لـ\r\nopenEHR\r\nلصفة التقريب لأي نوع كمي من البيانات. \r\nو عند تشغيل هذا النموذج, مثلا شاشة لبرنامج كمبيوتر فإنها تسمح للطبيب السريري أن يختار زراّ مناسبا ملاصقا لبيانات الوزن تشير إلى أن هذا القياس هو تقدير و ليس حقيقيا.",
+          "misuse" : "لا يستخدم لتسجيل القياس الأول لوزن حديث الولادة بمجرد ولادته و الذي يسمى بالوزن عند الولادة/ الوضع - و استخدم بدلا من ذلك تخصيص النموذج الذي يسمى ملاحظة.وزن الجسم - الولادة/ الوضع.\r\n\r\nلا يستخدم لتسجيل وزن الجسم المُصحَّح مثل قياس الوزن الكلي للجسم لشخص يعاني من بتر في أحد الأطراف, بناءا على قياسات أخرى من الجسم باستخدام خُوارزمية - استخدم بدلا من ذلك نموذج ملاحظة.وزن الجسم المُصحَّح.\r\n\r\nلا يستخدم لتسجيل وزن شيئ أو جزء من أجزاء الجسم.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record the body weight of an individual - both actual and approximate.",
+          "keywords" : [ "weight", "gain", "loss", "increase", "decrease", "mass", "estimate", "actual" ],
+          "use" : "To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal.   A statement identifying the physical incompleteness of the body can be recorded in the 'Confounding factors' data element, if required. This is the usual archetype to be used for a typical measurement of weight, for example self-measured by the individual at home, a clinician measurement in a clinic/hospital, or a fitness instructor in a gymnasium.  \r\n\r\nCan also be used for recording an approximation of body weight measurement in a clinical scenario where it is not possible to measure accurately body weight - for example, weighing an uncooperative child, or estimating the weight of an unborn fetus (where the 'subject of data' is the Fetus and recording occurs within the mother's health record).  This is not modelled explicitly in the archetype as the openEHR Reference model allows approximations  for any Quantity data type by setting the attribute Magnitude_status to the value '~'.  At implementation, for example, an application user interface could allow clinicians to select an appropriately labelled check box adjacent to the Weight data field to indicate that the recorded weight is an approximation, rather than actual.\r\n\r\nTo be used for recording weight change, that is, either weight loss or weight gain.  This can currently be modelled by constraining the 'any event' to an interval with associated mathematical function of increase or decrease, as appropriate.",
+          "misuse" : "Not to be used to record a calculated body weight, such as an estimation of the body weight of a person with one or more limbs missing. A calculated body weight may be based on, some or all of, the measured body weight, other body measurements and an algorithm. Use other OBSERVATION archetypes for this purpose.\r\n\r\nNot to be used to record the weight of a body part or other object.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fr"
+          },
+          "purpose" : "Mesure du poids corporel d'un individu - à la fois réel et approximatif.",
+          "keywords" : [ "poids", "gain", "perte", "augmenter", "diminution", "Masse", "estimation", "réel" ],
+          "use" : "*To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal.   A statement identifying the physical incompleteness of the body can be recorded in the 'Confounding factors' data element, if required. This is the usual archetype to be used for a typical measurement of weight, for example self-measured by the individual at home, a clinician measurement in a clinic/hospital, or a fitness instructor in a gymnasium.  \r\n\r\nCan also be used for recording an approximation of body weight measurement in a clinical scenario where it is not possible to measure accurately body weight - for example, weighing an uncooperative child, or estimating the weight of an unborn fetus (where the 'subject of data' is the Fetus and recording occurs within the mother's health record).  This is not modelled explicitly in the archetype as the openEHR Reference model allows approximations  for any Quantity data type by setting the attribute Magnitude_status to the value '~'.  At implementation, for example, an application user interface could allow clinicians to select an appropriately labelled check box adjacent to the Weight data field to indicate that the recorded weight is an approximation, rather than actual.\r\n\r\nTo be used for recording weight change, that is, either weight loss or weight gain.  This can currently be modelled by constraining the 'any event' to an interval with associated mathematical function of increase or decrease, as appropriate.(en)",
+          "misuse" : "*Not to be used to record a calculated body weight, such as an estimation of the body weight of a person with one or more limbs missing. A calculated body weight may be based on, some or all of, the measured body weight, other body measurements and an algorithm. Use other OBSERVATION archetypes for this purpose.\r\n\r\nNot to be used to record the weight of a body part or other object.(en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "zh-cn" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "zh-cn"
+          },
+          "purpose" : "记录个人的身体重量（体重），实际重量和近似重量。",
+          "keywords" : [ "体重", "身体重量", "增加", "减轻", "增大", "减小", "长胖", "消瘦", "质量", "估计", "估计值", "实际值" ],
+          "use" : "用于记录体重的实际测量值，包括当个人因为先天原因或在手术切除之后损失某个身体组成部分的时候。如果需要的话，可以在“干扰因素（Confounding factors）”数据元之中记录用于表明身体残缺情况的说明。这是旨在用于常规体重测量的普通原始型，如个人在家中自行测量，临床医生在门诊/医院里进行的测量，或者健身教练在健身房进行的测量。\r\n\r\n*Can also be used for recording an approximation of body weight measurement in a clinical scenario where it is not possible to measure accurately body weight - for example, weighing an uncooperative child, or estimating the weight of an unborn fetus (where the 'subject of data' is the Fetus and recording occurs within the mother's health record). This is not modelled explicitly in the archetype as the openEHR Reference model allows approximations for any Quantity data type by setting the attribute Magnitude_status to the value '~'. At implementation, for example, an application user interface could allow clinicians to select an appropriately labelled check box adjacent to the Weight data field to indicate that the recorded weight is an approximation, rather than actual.(en)\r\n\r\n用于记录体重变化，即体重增加或减轻。当前，可以通过在合适情况下，采用关联的关于增加或减轻的数学函数，将“任何事件”限制到特定区间。",
+          "misuse" : "并非旨在用于记录经过调整的身体重量，如基于其他身体组成部分测量结果和特定算法，对截肢患者完整体重的计算。此时，请采用调整型身体重量观察的原始型，即OBSERVATION.body_weight-adjusted。\r\n并非旨在用于记录某种对象或身体组成部分的重量。",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Registro del peso corporal de un individuo ya sea exacto o aproximado.",
+          "keywords" : [ "peso", "ganancia", "pérdida", "incremento", "decremento", "masa", "estimado", "real" ],
+          "use" : "Se usará para el registro de la medición real del peso del cuerpo, incluso cuando falte una parte del cuerpo debido a una anomalía congénita o después de una extirpación quirúrgica. Este hecho se registra de forma complementaria en un campo asignado ex-profeso. También se puede utilizar para el registro del peso aproximado en un escenario clínico en el que no es posible medir con precisión el peso corporal - por ejemplo, el peso de un niño no coopera, o la estimación del peso de un feto (donde el sujeto de los datos es el feto y la grabación se produce dentro de registros de salud de la madre). En la aplicación, por ejemplo, una interfaz de usuario podría permitir a los médicos seleccionar una casilla de verificación debidamente etiquetada junto al campo \"peso\" para indicar que el peso registrado es una aproximación.\r\n\r\nSe usará para reflejar el cambio de registro de peso, es decir, aumento o pérdida de peso. Esto se puede modelar mediante la limitación de \"cualquier evento\" a un intervalo asociado a una función matemática de incremento o decremento, según corresponda.",
+          "misuse" : "No debe ser usado para grabar el primer registro de peso de un recién nacido (\"el peso al nacer\") que cuenta con su propio arquetipo.\r\nNo debe ser usado para registrar el peso corporal ajustado mediante algoritmos.\r\nNo debe ser usado para registrar el peso de un objeto o parte del cuerpo.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "Brukes til registrering av et individs kroppsvekt - både målt og estimert.",
+          "keywords" : [ "Vekt", "fedme", "anoreksi", "kroppsmasse", "obesitas", "overvekt", "avmagring", "undervekt", "vektøkning", "vekttap", "kakexi", "underernæring" ],
+          "use" : "Brukes til registrering av den faktiske måling av kroppsvekt, også når kroppsdel(er) mangler på grunn av en medfødt defekt eller etter kirurgisk/traumatisk fjerning. En kommentar som identifiserer eventuelt manglende kroppsdeler kan registreres i feltet \"Konfunderende faktorer\". Dette er standardarketypen som skal brukes for en vanlig måling av vekt, for eksempel selvmålt i hjemmet, på en klinikk/sykehus, på legekontor, helsestasjon eller skolehelsetjenesten, eller av en treningsinstruktør på et treningssenter.\r\n\r\nKan også brukes for registrering av estimert kroppsvekt, i en klinisk situasjon hvor det ikke er mulig å måle nøyaktig kroppsvekt - for eksempel veiing av et ikke-samarbeidsvillig barn, eller estimere vekten av et foster (hvor subjektet er fosteret og registreringen skjer i mors journal). Dette er ikke modellert eksplisitt inn i arketypen idet openEHR referansemodellen tillater estimater for datatypen kvantitet (magnitude_status settes til \"~\"). Ved implementasjon kan det for eksempel settes kryss i en boks ved siden av datafeltet for vekt for å indikere at den registrerte vekten er et estimat. \r\n\r\nSkal arketypen brukes til å påvise vekttap eller vektøkning, kan dette skje ved å sette begrensninger i \"Uspesifisert hendelse\" til et intervall med tilhørende matematisk funksjon.\r\n\r\nVed registrering av den første vekten av et spedbarn kort tid etter fødselen, \"fødselsvekt\"- bruk hendelsen \"Fødsel\".",
+          "misuse" : "Skal ikke brukes til å registrere justert kroppsvekt, det vil si en utregning av den fullstendige kroppsvekten av en person som mangler et eller flere lemmer, basert på måling av andre kroppsdeler og en algoritme. Bruk arketypen OBSERVATION.body_weight-adjusted til dette formålet.\r\n\r\nSkal ikke brukes til å registrere vekten av et ikke-kroppslig objekt eller en kroppsdel.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ja" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ja"
+          },
+          "purpose" : "個人の体重を記録するため。実測値あるいはおおよその値として。",
+          "keywords" : [ "重量", "増量", "減量", "増加", "減少", "質量", "推定値", "実測値" ],
+          "use" : "身体の一部を先天的な理由あるいは外科的に切除していることにより欠損している場合を含めて、実測した体重を記録するために使われる。必要であれば身体の一部を物理的に欠損している状態は、「交絡因子」(confounding factor)データエレメントに指定される。これは一般的な体重測定のために使われるアーキタイプであり、たとえば個人の家庭で自己測定された体重や、クリニックや病院で臨床スタッフにより計測されたものあるいは、ジムでフィットネスインストラクタにより測定されたものである。\r\n\r\nまた、正確な体重測定が不可能であると臨床上想定される場面において、体重を概算して記録するときにも利用される。たとえば、非協力的な子供の体重測定や、未出産の胎児の体重を見積もるような場合である。（胎児体重を見積もる場合、「データの対象」(subject of data)は「胎児」(Fetus)であり、母親の健康を記録するときに同時に記録される。）このアーキタイプでは、openEHRの参照モデルが量(Quantity)を表すデータ型に概算であることを示す属性を明示するようにはモデリングされていない。実装する場合には、たとえばアプリケーションのユーザーインターフェースが臨床スタッフに実測したデータでは無く概算であると言うことを明示的に記録できるようなチェックボックスを用意して、体重データフィールドに記録するようにしておくこともできる。\r\n\r\n体重変化、つまり体重が増加しているか減少しているかを記録するために利用することもできる。これについては、現在では「任意のイベント」(any event)による制約を適切な間隔で制約して、数学的に足したり引いたりすることができるようにモデリングされている。",
+          "misuse" : "新生児が生まれた直後に最初にはかる体重、つまり新生児の「生下時体重」(birth weight)を記録するためには設計されていない。生下時体重の記録にはこのアーキタイプを特殊化したOBSERVATION.body_weight-birthアーキタイプを利用すること。\r\n調整された体重、たとえば四肢を切断した人の全体重を身体の他の部位を計測して、一定のアルゴリズムに基づいて計算するような場合にも用いられない。その場合には、OBSERVATION.body_weight-adjustedを用いること。\r\nそのほかの物体や体の一部の重さを記録するためにも用いられない。",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fa" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fa"
+          },
+          "purpose" : "برای ثبت وزن بدن فرد ، بطور واقعی یا تقریبی ، بکار می رود",
+          "keywords" : [ "وزن", "زیاد کردن وزن", "کم کردن وزن", "افزایش", "کاهش", "توده", "تخمین", "واقعی" ],
+          "use" : "برای ثبت اندازه گیری واقعی وزن بکار می رود، و شامل زمانی که فرد مادرزادی عضوی را ندارد یا بعد از جراحی عضوی را ازدست می دهد، نیز می‌‌شود. عبارتی که نواقص فیزیکی بدن را مشخص می کند در بخش داده های \"فاکتورهای جانبی\" درصورت نیاز ثبت می شود.این الگوساز بطور معمولی برای اندازه گیری واقعی وزن استفاده می شود برای مثال اندازه گیری وزن توسط خود فرد در منزل ، اندازه گیری بالینی در مطب یا بیمارستان یا مربی ورزشی در باشگاه\r\nهمچنین از این الگو ساز می توان در اندازه گیری تقریبی وزن بدن در یک سناریوی بالینی، که اندازه گیری واقعی عملی نیست، استفاده نمود برای مثال اندازه گیری وزن کودکی که همکاری نمی کند یا تخمین وزن جنین بدنیا نیامده (که آنجا \"موضوع داده\" جنین است و اطلاعات در پرونده بهداشتی مادر ثبت می‌شوند). این مورد بطور واضح در الگوساز مدل بندی نشده است ولی مدل مرجع \"اوپن ئی اچ ار\" ویژگی تقریب را برای هر نوع داده کمی اجازه می دهد. در پیاده سازی، برای مثال، یک واسط کاربری نرم افزار می تواند به کاربران اجازه دهد تا با انتخاب گزینه ای [چک باکس] درکنار محل مربوط به وزن با نشانه گذاری مناسب نشان دهند که قد ثبت شده اندازه ای است تقریبی و نه  واقعی\r\n     این الگوساز برای تغییرات وزن ، کاهش یا افزایش آن، استفاده می شود. این الگوساز می‌تواند در حال حاضر با مشروط کردن \"هر رویداد\" به دوره زمانی در نظر گرفته شده در الگو، با عملگرهای ریاضی مرتبط با افزایش یا کاهش، بصورت مناسب مدل بندی شود\r\n \r\n",
+          "misuse" : "برای ثبت اولین اندازه گیری وزن نوزاد بلافاصله بعد ازتولد به عنوان \"وزن نوزاد هنگام تولد\" استفاده نمی شود، در این موارد پیاده سازی اختصاصی از این الگوساز استفاده شود. ببینید\r\nOBSERVATION.weight-birth\r\nبرای ثبت  وزن معادل (تطبیق یافته)، مانند محاسبه کل وزن یک فرد قطع عضوی، بر اساس اندازه گیری های بخشهایی از بدن و یا یک الگوریتم دیگر استفاده نشود. در این موارد از \r\nOBSERVATION.weight-adjusted\r\nاستفاده کنید.\r\nبرای ثبت وزن یک شی یا بخشهایی از بدن استفاده نکنید\r\n",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "purpose" : "Om het lichaamsgewicht van een persoon te registreren - zowel exact als geschat gewicht.",
+          "keywords" : [ "gewicht", "stijging", "verlies", "toename", "daling", "massa", "schatting", "werkelijk", "afname" ],
+          "use" : "Registreren van een actuele meting van het lichaamsgewicht, ook als deze persoon een lichaamsdeel mist, door een geboorteafwijking of na een chirurgische ingreep. Een verklaring over de fysieke inclompleetheid van het lichaam, kan zo nodig opgeslagen worden in het data element 'beïnvloedende factoren'. Dit is het gebruikelijke archetype voor gewichtmetingen, bij voorbeeld thuis gemeten door de persoon zelf, een klinische meting in een kliniek/ziekenhuis, of door een fitness instructeur in een sportschool.\r\n\r\nKan ook gebruikt worden om een geschat lichaamsgewicht te registreren in een klinische setting als het niet mogelijk is om het exacte lichaamsgewicht te meten - bijvoorbeeld, het wegen van een tegenwerkend kind, of een schatting van het gewicht van een ongeboren kind (waar het onderwerp van de gegevens de foetus is en de opslag in het patiënten dossier van de moeder plaatsvindt). Dit is niet expliciet gemodelleerd in het archetype, omdat het openEHR Referentie model een schatting in ieder kwantitatief data type toestaat. Bij de uitvoering, bijvoorbeeld, zou een applicatie gebruikersinterface, clinici een adequaat geëtiketteerd selectievakje kunnen aanbieden, naast de gegevens over het gewicht, waarin door selecteren aangegeven kan worden dat het opgenomen gewicht een schatting is, in plaats van het werkelijke gewicht.\r\n\r\nDient te worden gebruikt om gewichtsverandering op te slaan, zowel gewichtsverlies als gewichtstoename. Dit kan gemodelleerd worden door 'any event' - elke gebeurtenis - in voorkomende gevallen, te beperken tot een interval met met bijbehorende rekenkundige functie van stijging of daling.",
+          "misuse" : "Dient niet te worden gebruikt voor het registreren van het eerste gewicht van een kind, na geboorte, welke wordt aangewezen als geboortegewicht. Gebruik hiervoor de specialisatie van dit archetype, OBSERVATION.body_weight-birth (OBSERVATION.lichaamsgewicht-geboorte.\r\nDient niet te worden gebruikt voor het registreren van het aangepaste lichaamsgewicht, bijvoorbeeld een berekening van het volledige lichaamsgewicht van een persoon met een amputatie van ledematen, gebaseerd op metingen van lichaamsdelen en een algoritme - gebruik hiervoor OBSERVATION.body_weight-adjusted. (OBSERVATION.lichaamsgewicht-aangepast).\r\nDient niet te worden gebruikt voor het vastleggen van het gewicht van een object of lichaamsdeel.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Registrar el pes corporal d'un pacient, tant real com aproximat.",
+          "keywords" : [ "pes", "guany", "pèrdua", "augment", "disminució", "massa", "estimació", "real" ],
+          "use" : "Utilitzar per a registrar la mesura real del pes corporal, fins i tot quan al pacient li manca una part del cos per causa congènita o després d'una extirpació quirúrgica. Es pot registrar una declaració que identifiqui la incompleció física del cos a l'element de dades «Factors de confusió», si fos necessari. Aquest és l'arquetip habitual que s'utilitza per a la mesura típica del pes; per exemple, el que realitza el propi pacient a casa, el que realitza un metge en una clínica o hospital o el que realitza un monitor de fitness en un gimnàs.\r\n\r\nTambé es pot utilitzar per a l’enregistrament del pes aproximat en un escenari clínic on no és possible mesurar amb precisió el pes corporal - per exemple, el pes d'un infant que no coopera, o l'estimació del pes d'un fetus nonat (on el «subjecte de les dades» és el Fetus i la gravació es produeix dins del registre de salut de la mare). Això no es modela de manera explícita a l'arquetip, ja que el model de Referència openEHR permet aproximacions per a qualsevol tipus de dades de Quantitat establint l'atribut Magnitude_status al valor «~». Al moment de la implementació; per exemple, una interfície d'usuari d’una aplicació podria permetre als metges seleccionar una casella de verificació degudament etiquetada al costat del camp de dades Pes per a indicar que el pes registrat és una aproximació, i no el pes real.\r\n\r\nUtilitzar per a registrar el canvi de pes; és a dir, augment o pèrdua de pes. Això es pot modelar limitant «qualsevol esdeveniment» a un interval amb una funció matemàtica d’increment o decrement associada, segons correspongui.",
+          "misuse" : "No utilitzar per a registrar un pes corporal calculat, com una estimació del pes corporal d’un pacient a qui li manca una o més extremitats. Un pes corporal calculat es pot basar en una part o en tots els pesos corporals mesurats, altres mesures del cos i un algoritme. Utilitzar arquetips de tipus OBSERVATION per aquesta finalitat.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.body_weight.v2",
     "differential" : true,
@@ -1206,7 +1680,24 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "6D33ECAE951870774131B9C6BB600560"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To provide a framework and design guidance for consistent modelling of content within a template for a Vaccination list.",
+          "keywords" : [ "immunisation", "vaccination", "exclusion", "absence", "list" ],
+          "use" : "Use as a framework and suggested design guidance for consistent modelling of content within a template for a Vaccination list.\r\n\r\nThis archetype is intended to be used within the COMPOSITION.vaccination_list or as one component of other COMPOSITION archetypes. For example: complex documents, such as a referral.\r\n\r\nThis list can be comprised of three types of statements, each represented by specific archetypes:\r\n- statements about the positive presence of vaccinations administered are recorded using the ACTION.medication OR\r\n- statements about the positive exclusion of vaccinations administered can be recorded using the specific EVALUATION.exclusion-global; OR\r\n- statements about no information being available - neither a positive presence of an administered vaccination nor a positive exclusion - can be recorded using the EVALUATION.absence archetype.",
+          "misuse" : "Not to be used to record the actual administration of a vaccination. Use ACTION.medication for this purpose.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-SECTION.immunisation_list.v0",
     "differential" : true,
@@ -1257,7 +1748,71 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "C38C4BB99823EE9749557C5A8C5734A0"
       },
-      "details" : { }
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Aufzeichnung einer Zusammenfassung von Impfstoffverabreichungsereignissen, die auf eine einzelne Infektionskrankheit oder einen einzelnen Erreger oder eine Gruppe von Infektionskrankheiten oder Erregern abzielen, die gleichzeitig mit einem Kombinationsimpfstoff geimpft werden.",
+          "keywords" : [ "Immunisierung", "Impfung", "Schutzimpfung", "Immunstatus", "Zusammenfassung", "primär", "Erstimpfung", "Auffrischung" ],
+          "use" : "Zur Aufzeichnung einer Zusammenfassung von Impfstoffverabreichungen gegen eine einzelne Infektionskrankheit oder einen Erreger oder gegen eine Gruppe von Infektionskrankheiten oder Erregern, die gleichzeitig mit einem Kombinationsimpfstoff geimpft werden.\r\n\r\nDer Zweck dieses Archetyps besteht darin, eine klinische Beurteilung zu ermöglichen, ob die Person auf dem aktuellsten Stand der Immunisierungsmaßnahmen gegen die betreffende(n) Krankheit(en) oder Erreger ist. Es soll keine Aussage über den Immunisierungsstatus getroffen werden, d. h. darüber, ob die Person nach der Impfung eine angemessene Immunantwort entwickelt hat oder ob die schützende Immunität nachgelassen hat. \r\n\r\nDieser Archetyp geht nicht von einem bestimmten Zeitplan oder Protokoll für die Immunisierung aus.",
+          "misuse" : "Nicht für die Erfassung des Impfstatus einer Person zu einem bestimmten Zeitpunkt zu verwenden - verwenden Sie zu diesem Zweck OBSERVATION.vaccination_status. \r\n\r\nNicht zu verwenden für die Dokumentation der detaillierten Verabreichung eines Impfstoffs, einschließlich Körperstelle, Verabreichungsweg, Hersteller und Chargennummer usw. - verwenden Sie zu diesem Zweck ACTION.vaccination oder ACTION.medication.\r\n\r\nNicht zu verwenden für die Aufzeichnung von Screening-Frage/Antwort-Paaren zur Impftätigkeit - verwenden Sie zu diesem Zweck OBSERVATION.vaccination_screening.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es-ar" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es-ar"
+          },
+          "purpose" : "*To record a summary of vaccine administration events targeting a single infectious disease or agent, or a group of infectious diseases or agents that are vaccinated simultaneously using a combination vaccine. (en)",
+          "keywords" : [ "vacunación", "inmunización", "resumen", "primario", "ciclo", "refuerzo" ],
+          "use" : "*Use to record a summary of vaccine administration events targeting a single infectious disease or agent, or a group of infectious diseases or agents that are vaccinated simultaneously using a combination vaccine.\r\n\r\nThe intent of this archetype is to support a clinical determination about whether the individual is up-to-date with vaccinations for the targeted disease/s or agent/s. It is not intended to make a determination about the immunisation status, which is about whether the individual has developed an adequate immune response following vaccination or whether protective immunity has waned. \r\n\r\nThis archetype does not presume any particular schedule or protocol for immunisation. (en)",
+          "misuse" : "*Not to be used to record the vaccination status of an individual at a point in time - use OBSERVATION.vaccination_status for this purpose. \r\n\r\nNot to be used for documenting the detailed administration of a vaccine, including body site, route, manufacturer and batch number etc - use ACTION.vaccination or ACTION.medication for this purpose.\r\n\r\nNot to be used for recording screening question/answer pairs regarding vaccination activity - use OBSERVATION.vaccination_screening for this purpose. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "*To record a summary of vaccine administration events targeting a single infectious disease or agent, or a group of infectious diseases or agents that are vaccinated simultaneously using a combination vaccine. (en)",
+          "keywords" : [ "vacinação", "imunização", "sumário", "primário", "etapa", "reforço" ],
+          "use" : "*Use to record a summary of vaccine administration events targeting a single infectious disease or agent, or a group of infectious diseases or agents that are vaccinated simultaneously using a combination vaccine.\r\n\r\nThe intent of this archetype is to support a clinical determination about whether the individual is up-to-date with vaccinations for the targeted disease/s or agent/s. It is not intended to make a determination about the immunisation status, which is about whether the individual has developed an adequate immune response following vaccination or whether protective immunity has waned. \r\n\r\nThis archetype does not presume any particular schedule or protocol for immunisation. (en)",
+          "misuse" : "*Not to be used to record the vaccination status of an individual at a point in time - use OBSERVATION.vaccination_status for this purpose. \r\n\r\nNot to be used for documenting the detailed administration of a vaccine, including body site, route, manufacturer and batch number etc - use ACTION.vaccination or ACTION.medication for this purpose.\r\n\r\nNot to be used for recording screening question/answer pairs regarding vaccination activity - use OBSERVATION.vaccination_screening for this purpose. (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record a summary of vaccine administration events targeting a single infectious disease or agent, or a group of infectious diseases or agents that are vaccinated simultaneously using a combination vaccine.",
+          "keywords" : [ "immunisation", "immunisation", "immunization", "summary", "primary", "course", "booster" ],
+          "use" : "Use to record a summary of vaccine administration events targeting a single infectious disease or agent, or a group of infectious diseases or agents that are vaccinated simultaneously using a combination vaccine.\r\n\r\nThe intent of this archetype is to support a clinical determination about whether the individual is up-to-date with vaccinations for the targeted disease/s or agent/s. It is not intended to make a determination about the immunisation status, which is about whether the individual has developed an adequate immune response following vaccination or whether protective immunity has waned. \r\n\r\nThis archetype does not presume any particular schedule or protocol for immunisation.",
+          "misuse" : "Not to be used to record the vaccination status of an individual at a point in time - use OBSERVATION.vaccination_status for this purpose. \r\n\r\nNot to be used for documenting the detailed administration of a vaccine, including body site, route, manufacturer and batch number etc - use ACTION.vaccination or ACTION.medication for this purpose.\r\n\r\nNot to be used for recording screening question/answer pairs regarding vaccination activity - use OBSERVATION.vaccination_screening for this purpose.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-EVALUATION.vaccination_summary.v0",
     "differential" : true,
@@ -1355,7 +1910,172 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "1A61B31372BDA3910BE19BDA970C63CC"
       },
-      "details" : { }
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Beschreibung der klinischen Vorgeschichte des Patienten und die Entwicklung eines Frameworks für die Erstellung eines detaillierten CLUSTER-Archetyps, der die Darstellung mit zusätzlichen strukturierten Details zu Symptomen, gesundheitlichen Ereignissen und verwandten Bereichen unterstützt. \r\n\r\nZur Repräsentation der klinischen Vorgeschichte einer Person, eines Elternteils, eines Betreuers oder einer anderen Partei. Sie kann von einem Kliniker als Teil der ihm vorgelegten klinischen Anamnese erfasst werden oder als Teil eines klinischen Fragebogens oder einer persönlichen Patientenakte selbst erfasst werden.",
+          "keywords" : [ "Vorgeschichte", "vorliegende", "Beschwerde", "Erzählung", "Symptom", "Gesundheit", "Aufzeichnung", "aktuelle Beschwerde", "Anamnese" ],
+          "use" : "Zur Repräsentation einer Beschreibung über subjektive gesundheitsbezogene Beobachtungen oder Eindrücke aus Sicht der zu pflegenden Person.\r\n\r\nWenn es von einem Kliniker im Kontext der Gesundheitsversorgung aufgezeichnet wird, kann die Geschichte genutzt werden, um die klinische Vorgeschichte zu erfassen, wie sie von der Person selbst, einem Elternteil, Pflegeperson oder anderen beteiligten Parteien berichtet wurde. Falls diese von der Person selbst erfasst wird, kann sie als Bericht über ihre \"Geschichte\" von Symptomen und Gesundheitserfahrungen verwendet werden, der zum Austausch mit den Gesundheitsdienstleistern oder zur Dokumentation in ihrer persönlichen Gesundheitsakte verwendet werden kann.\r\n\r\nVerwendung:\r\n- zum Darstellen einer einfachen Erzählung; und/oder\r\n- als Container-Archetyp, um die Darstellung einer detaillierten strukturierten Geschichte durch die Einbeziehung relevanter CLUSTER-Archetypen innerhalb des \"Strukturierte Angabe\"-SLOTs zu ermöglichen. Zum Beispiel können CLUSTER.symptom-, CLUSTER.issue- oder CLUSTER.health_event-Archetypen in diesem SLOT angemessen verwendet werden.\r\n\r\nDiesen Archetypen verwenden, um die aus bestehenden oder alten klinischen Systemen erfasste Beschreibungen der klinischen Vorgeschichte in einem archetypischen Format mit Hilfe des 'Story'-Textdatenelements integrieren.",
+          "misuse" : "Nicht zur Repräsentation formaler Beurteilungen von Klinikern, die in der Regel unter Nutzung der Archetypenklasse EVALUATION erfasst werden.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera en beskrivning av vårdtagarens sjukdomshistoria samt tillhandahålla ett ramverk i vilken detaljerade CLUSTER-arketyper ska infogas, där syftet med var och en är att stödja berättelsen med ytterligare detaljer för symptom, hälsohändelser och relaterade ämnen.\r\n\r\nAnvänds för att registrera detaljer om en sjukdomshistoria som rapporterats av vårdtagare, förälder, vårdgivare eller annan part. Detta kan registreras som en del av en sjukdomshistoria som rapporterats direkt till en kliniker, eller registreras som en del av ett kliniskt frågeformulär eller patientjournal.",
+          "keywords" : [ "presenterar", "klagomål", "berättelse", "symptom", "hälsa", "journal", "anamnes", "sjukdomshistoria" ],
+          "use" : "Används för att registrera en beskrivning av subjektiva, hälsorelaterade observationer eller intryck ur vårdtagarens perspektiv. \r\n\r\nOm registrering sker av en kliniker, kan berättelsen användas för att fånga sjukdomshistorian som rapporterats antigen av vårdtagaren, en förälder, vårdgivaren eller annan närstående. Om registrering sker av vårdtagaren själv, kan berättelsen användas som en redogörelse för deras symptom och hälsoupplevelser, som i sin tur kan användas för att dela med vårdgivare eller för att dokumentera i deras egna personliga hälsojournaler.\r\n\r\nAnvändningsområden:\r\n- registrering av en enkel sjukdomshistoria; och/eller\r\n- som en containerarketyp för att möjliggöra registrering av en detaljerad berättelse genom att inkludera relevanta CLUSTER-arketyper i \"Detail\"-SLOT. Till exempel kan CLUSTER.symptom, CLUSTER.issue eller CLUSTER.health_event-arketyper användas på lämpligt sätt i denna SLOT.\r\n\r\nAnvänds för att införliva de beskrivningar av sjukdomshistorier som finns dokumenterade i befintliga eller äldre kliniska system i ett arketypiskt format med hjälp av dataelementet ”Berättelse”.",
+          "misuse" : "Ska inte användas för att registrera formella bedömningar av kliniker. Dessa registreras vanligtvis med EVALUATION-klassen av arketyper.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es-ar" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es-ar"
+          },
+          "purpose" : "*To record a narrative description of the clinical history, as told to a clinician or recorded directly by an individual/patient, and to provide a framework in which to nest detailed CLUSTER archetypes, each of which will describe the various aspects of the clinical history in further detail.(en)",
+          "keywords" : [ ],
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ko" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ko"
+          },
+          "purpose" : "개인/환자가 의사에게 이야기하거나 직접 기록한 임상 병력에 대한 서술을 기록하기 위한 것과 상세한 CLUSTER archetypes를 포함할 수 있는 프레임워크를 제공하는 것으로 각각에 임상 병력의 다양한 측면들을 상세하게 기술될 것이다.",
+          "keywords" : [ "*병력(ko)", "*현재(ko)", "*호소(ko)", "*이야기(ko)" ],
+          "use" : "환자가 의사에게 이야기한 공식적인 '현재 호소하는 병력(History of Presenting Complaint)'을 기록하기 위해서 사용함; 또는 (예를 들어 개인건강기록에 있는) 개인 자신의 증상들의 '이야기(story)를 설명한 것을 기록하기 위해 사용함.\r\n\r\n기존 또는 이전의 임상 시스템 내의 임상 병력의 서술을 'Story' data element을 사용하여 archetyped format으로 통합하기위해 사용함.\r\n\r\n단순한 서술을 기록하기 위해 사용함 그리고/또는 container archetype으로써 - 추가적이고 특정한 그리고 상세한 CLUSTER archetypes에 의해 확장될 수 있는 공통의 쿼리가능한 ENTRY archetype framework를 제공함. 각각에 임상병력의 다양한 측면을 기술될 것임. 병력과 관련된 CLUSTER archetypes의 예는 CLUSTER.symptom 또는 CLUSTER.health_event를 포함한다.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere en fritekstbeskrivelse av individets sykehistorie/anamnese og som et rammeverk for å nøste detaljerte CLUSTER-arketyper som hver for seg kan detaljere ulike aspekter av sykehistorien, som symptomer, helserelaterte hendelser, og andre tilgrensende emner.\r\n\r\nBrukes for å registrere detaljer om sykehistorien slik den blir fortalt av et individ, pårørende, eller en annen part. Det kan registreres av en kliniker som del av opptak av sykehistorie, eller selvregistreres som del av et spørreskjema eller personlig helsearkiv.",
+          "keywords" : [ "anamnese", "sykehistorie", "problem", "helseplage", "bekymring" ],
+          "use" : "Brukes for å registrere en beskrivelse av subjektive helserelaterte observasjoner eller inntrykk fra individets synsvinkel.\r\n\r\nNår anamnesen registreres av en kliniker i en konsultasjon kan arketypen brukes for å registrere den kliniske historikken til individet, rapportert av individet selv, en forelder, pårørende eller en annen involvert part. Dersom den registreres av individet selv, kan den brukes som en oversikt over symptom- og helseerfaringer, som kan deles med helsepersonell eller som dokumentasjon i deres eget helsearkiv.\r\n\r\nBrukes:\r\n- for å registrere en enkelt fritekst\r\n- som et rammeverk for å registrere en detaljert strukturert historikk ved å inkludere relevante CLUSTER-arketyper i SLOTet \"Strukturerte detaljer\". Eksempler kan være CLUSTER.symptom_sign eller CLUSTER.health_event.\r\n\r\nBrukes for å kunne gjenbruke anamnese i eksisterende systemer inn i et arketypeformat ved hjelp av 'Anamnese'-dataelementet.",
+          "misuse" : "Skal ikke brukes for å registrere formelle vurderinger av klinikere. Disse registreres ved hjelp av forskjellige arketyper av klassen EVALUATION.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "Para registrar uma descrição narrativa da história clínica do sujeito do cuidado e para fornecer um quadro no qual se aninha arquétipos CLUSTER detalhados, cada um dos quais irão apoiar a narrativa com detalhes estruturados adicionais para sintomas, eventos de saúde e tópicos relacionados.\r\n\r\nUse para registrar detalhes sobre a história clínica relatada por um indivíduo, pais, cuidador ou outra pessoa. Pode ser registrado pelo médico como parte de um registro de história clínica relatado, ou auto-registrado como parte de um questionário clínico ou registro de saúde pessoal.",
+          "keywords" : [ "história", "queixa", "sintoma", "saúde", "gravar", "apresentando queixa", "anamnese", "presente" ],
+          "use" : "Use para registrar uma descrição sobre observações ou impressões subjetivas relacionadas à saúde do ponto de vista do sujeito do cuidado.\r\n\r\nQuando registrado por um médico dentro do contexto de provisão de cuidados de saúde, a história pode ser utilizada para capturar a história clínica, como relatado pelo próprio sujeito, pais, cuidador ou outra parte relacionada. Se gravado pelo próprio sujeito, pode ser usado como um relato de sua \"história\" de sintomas e experiências de saúde, que pode ser usado para compartilhar com os prestadores de cuidados de saúde ou para documentar dentro do seu próprio registro de saúde pessoal.\r\n\r\nUsar:\r\n- para gravar uma narrativa simples; e/ou\r\n- como um arquétipo contêiner para permitir o registro de um histórico detalhado por inclusão de arquétipos CLUSTER relevantes dentro do SLOT Detalhes. Por exemplo: arquétipos CLUSTER.symptom, CLUSTER.issue ou CLUSTER.health_event podem ser adequadamente utilizados neste SLOT.\r\n\r\nUse para incorporar as descrições narrativas da história clínica capturadas de sistemas clínicos existentes ou herdados em um formato arquetipado, usando o elemento de dados de texto \"História\".",
+          "misuse" : "Não deve ser usado para gravar avaliações formais por médicos que normalmente seriam gravadas usando a classe de arquétipos EVALUATION.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ar-sy" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ar-sy"
+          },
+          "purpose" : "*To record a narrative description of the clinical history, as told to a clinician or recorded directly by an individual/patient, and to provide a framework in which to nest detailed CLUSTER archetypes, each of which will describe the various aspects of the clinical history in further detail.(en)",
+          "keywords" : [ ],
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record a narrative description of the clinical history of the subject of care and to provide a framework in which to nest detailed CLUSTER archetypes, each of which will support the narrative with additional structured detail for symptoms, health events and related topics.\r\n\r\nUse to record detail about the clinical history as reported by an individual, parent, care-giver or other party. It may be recorded by a clinician as part of a clinical history record as reported to them, or self-recorded as part of a clinical questionnaire or personal health record.",
+          "keywords" : [ "history", "presenting", "complaint", "story", "symptom", "health", "record", "presenting complaint", "anamnesis" ],
+          "use" : "Use to record a description about subjective health-related observations or impressions from the point of view of the subject of care. \r\n\r\nWhen recorded by a clinician within the context of healthcare provision the story can be used for capturing the clinical history, as reported by the subject themselves, a parent, care-giver or other related party. If recorded by the subject, it can be used as an account of their 'story' of symptoms and health experiences, which might be used to share with healthcare providers or to document within their own personal health record.\r\n\r\nUse:\r\n- to record a simple narrative; and/or \r\n- as a container archetype to enable recording of a detailed structured history by inclusion of relevant CLUSTER archetypes within the 'Detail' SLOT. For example: CLUSTER.symptom, CLUSTER.issue or CLUSTER.health_event archetypes can be appropriately used in this SLOT.\r\n\r\nUse to incorporate the narrative descriptions of clinical history captured from existing or legacy clinical systems into an archetyped format, using the 'Story' text data element.",
+          "misuse" : "Not to be used to record formal assessments by clinicians which would usually be recorded using the EVALUATION class of archetypes.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "it" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "it"
+          },
+          "purpose" : "Registrare una descrizione narrativa della storia clinica del soggetto di cura e fornire un quadro in cui annidare gli archetipi dettagliati di CLUSTER, ognuno dei quali supporterà la narrazione con ulteriori dettagli strutturati per i sintomi, gli eventi sanitari e gli argomenti correlati.\r\n\r\nUsato per registrare i dettagli della storia clinica come riportata da un individuo, da un genitore, da un caregiver o da un altro soggetto. Può essere registrato da un clinico come parte di una storia clinica così come riportata, o autoregistrato come parte di un questionario clinico o di una cartella clinica personale.",
+          "keywords" : [ "cronologia, presentazione, segnalazione, storia, sintomo, salute, registrazione, presentazione di una lamentela, anamnesi" ],
+          "use" : "Usato per registrare una descrizione delle osservazioni o impressioni soggettive relative alla salute dal punto di vista del soggetto di cura.\r\n\r\nQuando viene registrata da un clinico nell'ambito dell'assistenza sanitaria, la storia può essere utilizzata per acquisire l'anamnesi clinica, come riportata dal soggetto stesso, da un genitore, da un care-giver o da altre parti correlate. Se registrata dal soggetto, può essere utilizzata come resoconto della sua \"cronologia\" di sintomi ed esperienze di salute, e può essere utilizzata per condividerla con gli operatori sanitari o per documentare all'interno della cartella clinica personale del soggetto.\r\n\r\nUtilizzo:\r\n- per registrare una semplice narrazione; e/o\r\n- come archetipo di contenitore per consentire la registrazione di una storia strutturata e dettagliata includendo i relativi archetipi di CLUSTER all'interno dello SLOT \"Dettaglio\". Per esempio: Gli archetipi di CLUSTER.symptom, CLUSTER.issue o CLUSTER.health_event possono essere utilizzati in modo appropriato in questo SLOT.\r\n\r\nUtilizzare per incorporare le descrizioni narrative della storia clinica acquisite da sistemi clinici esistenti o preesistenti in un formato archetipizzato, utilizzando l'elemento \"Storia\".\r\n",
+          "misuse" : "Da non utilizzare per registrare le valutazioni formali dei clinici che di solito vengono registrate utilizzando la classe EVALUATION degli archetipi.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "zh-cn" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "zh-cn"
+          },
+          "purpose" : "旨在用于记录照护服务对象临床病史的叙述性描述，并提供可用于在其中嵌套其他详细的群簇型（CLUSTER ）原始型的框架；其中，所嵌入的每个原始型分别会利用进一步关于症状、健康事件和相关主题的结构化详情来支持上述的叙述。\r\n\r\n用于记录关于个人、父母、照护人员/照料者或其他参与方所报告的临床病史的详细信息。临床医务人员/临床医生可能会将其记录为向他们所报告的临床病史记录的组成部分，或者是照护服务对象将其自行记录为临床问卷或个人健康档案的组成部分。",
+          "keywords" : [ "病史", "历史", "陈述", "描述", "叙述", "主诉", "抱怨", "症状", "健康", "档案", "记录", "既往史", "既往病史" ],
+          "use" : "用于从照护服务对象的角度记录关于主观性的健康相关观察或印象的描述。\r\n\r\n当临床医务人员/临床医生在提供医疗保健服务的背景下加以记录时，临床病史叙述原始型可用于采集照护服务对象自己、父母、照护人员或其他相关[参与]方所报告的临床病史。如果记录者为照护服务对象，则可将其作为对于其症状和健康经历/体验的“临床病史叙述”的说明，而且还可能会将此类的临床病史叙述用来与医疗保健服务人员进行分享，或者是在照护服务对象的个人健康当中进行记录。\r\n\r\n用于：\r\n- 记录一个简单的叙述；和/或\r\n- 作为容器型的原始型，通过在“详情”（Detail）槽位当中收纳相关的群簇型（CLUSTER ）原始型，从而使得能够记录详细的结构化病史。例如：可以在这一槽位当中酌情使用群簇型症状原始型 CLUSTER.symptom、群簇型事项原始型 CLUSTER.issue 或群簇型健康事件原始型 CLUSTER.health_event。\r\n\r\n用于采用原始型的格式，利用“临床病史叙述”（Story）文本型数据元，收纳从已有或历史遗留的临床系统之中所采集的关于临床病史的叙述性描述。",
+          "misuse" : "并非旨在用于记录临床医务人员/临床医生的正式评估[结果]。后者的记录通常会采用的是评估（EVALUATION）类的原始型。",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "purpose" : "*To record a narrative description of the clinical history of the subject of care and to provide a framework in which to nest detailed CLUSTER archetypes, each of which will support the narrative with additional structured detail for symptoms, health events and related topics.\r\n\r\nUse to record detail about the clinical history as reported by an individual, parent, care-giver or other party. It may be recorded by a clinician as part of a clinical history record as reported to them, or self-recorded as part of a clinical questionnaire or personal health record.(en)",
+          "keywords" : [ "*history(en)", "*presenting(en)", "*complaint(en)", "*story(en)", "*symptom(en)", "*health(en)", "*record(en)", "*presenting complaint(en)", "*anamnesis(en)" ],
+          "use" : "*Use to record a description about subjective health-related observations or impressions from the point of view of the subject of care. \r\n\r\nWhen recorded by a clinician within the context of healthcare provision the story can be used for capturing the clinical history, as reported by the subject themselves, a parent, care-giver or other related party. If recorded by the subject, it can be used as an account of their 'story' of symptoms and health experiences, which might be used to share with healthcare providers or to document within their own personal health record.\r\n\r\nUse:\r\n- to record a simple narrative; and/or \r\n- as a container archetype to enable recording of a detailed structured history by inclusion of relevant CLUSTER archetypes within the 'Detail' SLOT. For example: CLUSTER.symptom, CLUSTER.issue or CLUSTER.health_event archetypes can be appropriately used in this SLOT.\r\n\r\nUse to incorporate the narrative descriptions of clinical history captured from existing or legacy clinical systems into an archetyped format, using the 'Story' text data element.(en)",
+          "misuse" : "*Not to be used to record formal assessments by clinicians which would usually be recorded using the EVALUATION class of archetypes.(en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.story.v1",
     "differential" : true,
