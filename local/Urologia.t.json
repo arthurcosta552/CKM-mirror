@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "ffad891a8eda056286794878890068c3",
+      "MD5-CAM-1.0.1" : "302fe355652643e0e79b75eb68b8e88d",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
     },
     "details" : {
@@ -69,7 +69,7 @@
               "children" : [ {
                 "@type" : "C_ARCHETYPE_ROOT",
                 "rmTypeName" : "CLUSTER",
-                "occurrences" : "0..1",
+                "occurrences" : "0..0",
                 "nodeId" : "at0004.1",
                 "attributes" : [ ],
                 "attributeTuples" : [ ],
@@ -178,7 +178,39 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "96D44993F7047B68B9DB273DF73D0786"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere verdier for prostatasymptomkomponentene og dets summerte verdi for I-PSS og symptomenes innvirkning på livskvaliteten.",
+          "keywords" : [ "I-PSS", "prostata", "ipss", "bph", "prostatahyperplasi", "vannlatningsbesvær", "benign", "prostataobstruksjon" ],
+          "use" : "Brukes for å registrere verdier for prostatasymptomkomponentene og dets summerte verdi for I-PSS og symptomenes innvirkning på livskvaliteten.",
+          "misuse" : "Brukes ikke for å registrere prostatarelatert symptomer - bruk CLUSTER.symptom_sign til dette formålet.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record the results for each component parameter and their total sum for the IPSS.",
+          "keywords" : [ "I-PSS", "IPSS", "prostate", "BPH" ],
+          "use" : "Use to record the results for each component parameter and their total sum for the IPSS.",
+          "misuse" : "Do not use to record prostate-related symptoms - use the CLUSTER.symptom_sign for this purpose.",
+          "copyright" : "© Clinical Models UK, openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.ipss.v1",
     "differential" : true,
@@ -245,7 +277,38 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "AB13CDBAC10337B1D0AB6510812B0137"
       },
-      "details" : { }
+      "details" : {
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "Representação de outros detalhes relativos a um documento de identificação de uma pessoa/organização",
+          "keywords" : [ "serviço demográfico", "identificador" ],
+          "use" : "Usado em serviçoS demográficos para registrar outros detalhes relativos a um documento de identificação de uma pessoa/organização",
+          "copyright" : "© copyright (c) 2009 openEHR Foundation, openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "Representation of other details about a person/organization identifier",
+          "keywords" : [ "demographic service", "identifier" ],
+          "use" : "Used in demographic services to register other details about a person/organisation identifier",
+          "copyright" : "© copyright (c) 2009 openEHR Foundation, openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-DEMOGRAPHIC-CLUSTER.identifier_other_details.v0",
     "differential" : true,
@@ -311,7 +374,23 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "7606607D7643C3336A79FDE0D56985D6"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "Intended to capture the 5-item version of the International Index of Erectile Function (IIEF-5) as a diagnostic tool for erectile dysfunction.",
+          "keywords" : [ "erectile", "dysfunction", "IIEF", "score", "index", "prostate" ],
+          "use" : "Use to record 5-item scoring test for erectile dysfunction.",
+          "copyright" : "© Clinical Models UK",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.iief_5.v0",
     "differential" : true,
@@ -362,7 +441,40 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "97295325987015804EC826164BEB65B6"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record detailed findings about prostate cancer found on microscopic examination.",
+          "keywords" : [ "histopathology", "cancer", "laboratory", "prostate", "histology", "malignancy", "lab", "pathology" ],
+          "use" : "To record detailed findings about microscopic examination of prostate cancer as part of an anatomical pathology result.\r\nUse as a component archetype in the context of a suite of archetypes that make up a histopathology report ie OBSERVATION.lab_test.histopathology.",
+          "misuse" : "Not designed to be used within any other archetype other than OBSERVATION.lab_test.histopathology.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ar-sy" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ar-sy"
+          },
+          "purpose" : "لتسجيل الموجودات التفصيلية حول سرطان البروستاتا عند الفحص المجهري",
+          "keywords" : [ "الهيستوباثولوجيا", "السرطان", "المعمل/المختبر", "البروستاتا", "الهيستولوجيا", "الخباثة", "المعمل/المختبر", "الباثولوجيا/المرضية" ],
+          "use" : "لتسجيل الموجودات التفصيلية حول الفحص المجهري لسرطان البروستاتا كجزء من نتيجة اختبار الباثولوجيا التشريحية. \r\nيستخدم كنموذج يدخل في سياق النماذج التي يتكون منها تقرير الهيستولوجيا, و هو نموذج ملاحظة.الاختبار المعملي. الهيستوباثولوجيا.",
+          "misuse" : "لم يتم تصميم هذا النموذج ليستخدم في داخل نموذج آخر غير نموذج ملاحظة.الاختبار المعملي. الهيستوباثولوجيا",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v0",
     "differential" : true,
@@ -426,7 +538,40 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "8F04028B59F32E5C517699ED8A3EA50D"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For registrering av funn observert under undersøkelse av en kroppsvæske på et kroppssted eller fra en navngitt kroppskilde. Undersøkelsen gjøres vanligvis som en del av en fysisk undersøkelse utført av en kliniker.",
+          "keywords" : [ "kroppsvæske", "fostervann", "blod", "plasma", "cerebrospinal", "væske", "utflod", "urin", "puss", "spytt", "ekspektorat", "leddvæske", "svette", "oppkast", "mage", "diare", "slim", "spinalvæske", "galle", "ekskret", "morsmelk", "mucus", "magesyre", "sæd", "sekret", "ascites", "serøs", "intraokulærvæske", "dialysat", "pericardvæske", "pleuravæske", "tårevæske" ],
+          "use" : "Brukes for å registrere en fritekstbeskrivelse, strukturerte detaljer og klinisk fortolkning av funn observert under en undersøkelse av en kroppsvæske på et navngitt kroppssted eller fra en nanvgitt kroppskilde. Undersøkelsen gjøres vanligvis som en del av en fysisk undersøkelse utført av en kliniker.\r\n\r\nArketypen er utviklet spesifikt for å benyttes som et rammeverk for registrering av detaljer om en undersøkelse av en hvilken som helst kroppsvæske. For å registrere funn for:\r\n\r\n- For visse typer væske med spesielle egenskaper som man vil registrere strukturert, er det meningen å nøste spesifikke CLUSTER-arketyper i SLOT'et \"Spesifikke funn\". For eksempel vil ytterligere detaljer knyttet til klare væsker registreres i en egen CLUSTER-arketype for dette formålet. \r\n\r\n- Kroppsvæsker som består av flere komponenter som for eksempel fostervann registrerer man en instans av arketypen for å beskrive fostervannet, ytterligere instanser av den samme arketypen nøstes i dataelementet \"Spesifikke detaljer\" for å representere blod, mekonium og puss.\r\n\r\nKroppsvæsker referer vanligvis til væsker som er utskilt eller sekrert fra menneskekroppen og arketypen støtter detaljert registrering av:\r\n- Vanlige fysiologiske væsker.\r\n- Fysiologiske væsker som forandrer seg som følge av en patologisk prosess.\r\n- Væsker som genereres som en del av en patologisk prosess i kroppen.\r\n\r\nEksempler på kroppsvæsker kan være:\r\n- Fostervann\r\n- Blod eller plasma\r\n- Cerebrospinalvæske\r\n- Utflod\r\n- Urin\r\n- Puss\r\n- Spytt\r\n- Ekspektorat\r\n- Leddvæske\r\n- Svette\r\n- Oppkast\r\n\r\nArketypen er vil i de fleste tilfeller brukes i hos levende individer, men den kan også benyttes for registrering av funn ved obduksjon.\r\n\r\nKroppsted eller kroppskilde vil vanligvis identifiseres i konteksten arketypen nøstes i, eksempler på kontekst kan være, men ikke begrenset til:\r\n- I SLOT'et \"Funn ved undersøkelse\" i mange av de spesifikke undersøkelsesarketypene og relaterterte inspeksjons- og palpasjonsarketypene.\r\n- i SLOT'et for \"Physical properties\" i arketypen CLUSTER.specimen \r\n- I SLOTet \"Tilleggsinformasjon\" i arketypene OBSERVATION.urinanalysis og OBSERVATION.fluid_output\r\n- I andre OBSERVATION eller CLUSTER arketyper der dette er klinisk formålstjenlig.\r\n\r\nArketypen CLUSTER.exclusion_exam arketypen kan nøstes i SLOTet \"Undersøkelse ikke utført\" for å gi mulighet for en eksplisitt registrering av at en undersøkelse ikke er utført.\r\n\r\nBruk for å innlemme fritekstbeskrivelser av kliniske funn fra eksisterende eller tidligere kliniske systemer i et arketypeformat ved å bruke dataelementet \"Klinisk beskrivelse\".",
+          "misuse" : "Brukes ikke for å registrere målinger av væskevolum - bruk OBSERVATION-arketyper for dette formålet. For eksempel OBSERVATION.fluid_output.\r\n\r\nBrukes ikke for å registrere detaljer om ikke-fysiologiske væsker som er tilført kroppen eksternt fra, f.eks. kontrastvæske.\r\n\r\nBrukes ikke for å registrere en klinisk anamnese. Bruk spesifikke OBSERVATION eller CLUSTER arketyper for dette formålet. For eksempel OBSERVATION.story og CLUSTER.symptom_sign.\r\n\r\nBrukes ikke for å registrere resultat av en urinanalyse - bruk OBSERVATION.urinalysis. Denne arketypen kan legges til i SLOT'et \"Ytterliger detaljer\" for å gi ytterligere kontekst til prøveresultatet.\r\n\r\nBrukes ikke for å registrere andre detaljer om en prøve for bruk i laboratorier. Bruk CLUSTER.specimen for dette formålet. NB: På tross av dette unntaket, er det hensiktsmessig å benytte denne arketypen i SLOT'et \"Physical properties\" i CLUSTER.specimen for å beskrive de fysiske egenskapene til kroppsvæsken.\r\n\r\nBrukes ikke til å registrere detaljer om undersøkelse av fæces - bruk CLUSTER.examination_faeces.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record the findings observed during the macroscopic inspection (including odour) of urine.",
+          "keywords" : [ "urine" ],
+          "use" : "Use to record a narrative description, structured details and clinical interpretation about findings observed during the inspection (including odour) of urine.\r\n\r\nThis archetype has been specifically designed to be used as the framework for recording details about examination of urine, with the context of the anatomical site or source of the urine will be carried in the archetypes in which it is nested, including but not limited to:\r\n- in the 'Examination findings' SLOT within many of the CLUSTER.exam family of archetypes and related inspection archetypes;\r\n- in the 'Physical properties' SLOT within the CLUSTER.specimen archetype;\r\n- in the 'Additional details' SLOT within the OBSERVATION.urinalysis, the OBSERVATION.fluid_output archetypes; and\r\n- within other OBSERVATION or CLUSTER archetypes, where clinically appropriate.\r\n\r\nThe CLUSTER.exclusion_exam archetype can be nested within the 'Examination not done' SLOT to optionally record explicit details about the examination not being performed.\r\n\r\nWhile this archetype will most likely be used in the context of a living subject, it is also appropriate to use in recording autopsy findings.\r\n\r\nUse to incorporate the narrative descriptions of clinical findings within existing or legacy clinical systems into an archetyped format, using the 'Clinical description' data element.",
+          "misuse" : "Not to be used to record the inspection of body fluids other than urine - use the parent CLUSTER.inspection_body_fluid or other appropriate specialisations for this purpose.\r\n\r\nNot to be used to record the inspection of blood or blood clots, but only to record the presence of blood or blood clots within urine.\r\n\r\nNot to be used for recording measurements of urine output - use OBSERVATION archetypes for this purpose. For example: OBSERVATION.fluid_output.\r\n\r\nNot to be used to record details about a non-physiological fluid.\r\n\r\nNot to be used for recording the clinical history - use specific OBSERVATION and CLUSTER archetypes. For example: OBSERVATION.story and CLUSTER.symptom_sign.\r\n\r\nNot to be used to record the results of a urinalysis test - use OBSERVATION.urinalysis for this purpose.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.inspection_body_fluid-urine.v0",
     "differential" : true,
@@ -462,8 +607,54 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000.1",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : {
+          "at0003" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "Description",
+            "description" : "Narrative description about the fluid."
+          },
+          "at0018" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018",
+            "text" : "Colour",
+            "description" : "The colour of the body fluid.",
+            "comment" : "The intent of this data element is to record either a narrative description of the colour or to select one or more codes from a value set, appropriate to the body fluid, in a template."
+          },
+          "at0000" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "Inspection of a body fluid",
+            "description" : "Findings observed during the macroscopic inspection of an extracellular body fluid."
+          }
+        },
+        "nb" : {
+          "at0003" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "*Description (en)",
+            "description" : "Fritekstbeskrivelse av kroppsvæsken."
+          },
+          "at0018" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0018",
+            "text" : "Farge",
+            "description" : "*The colour of the body fluid. (en)",
+            "comment" : "*The intent of this data element is to record either a narrative description of the colour or to select one or more codes from a value set, appropriate to the body fluid, in a template. (en)"
+          },
+          "at0021" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0021",
+            "text" : "*Blood clots (en)",
+            "description" : "*"
+          },
+          "at0000" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "*Inspection of a body fluid (en)",
+            "description" : "Funn observert under undersøkelse av en kroppsvæske på et kroppssted eller fra en identifisert kroppskilde. Undersøkelsen gjøres vanligvis som en del av en fysisk undersøkelse utført av en kliniker."
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -508,7 +699,54 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "7C47F73CCDF65DAF2D50279E10C6D347"
       },
-      "details" : { }
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Darstellung der Befunde einer radiologischen Untersuchung einer bestimmten Körperstruktur oder -region und deren Interpretation.",
+          "keywords" : [ "Befund, Ergebnis, Bildgebung, Körper, Organ, System, Struktur, Region, Beobachtung, Diagnostik, Radiologie, Bild" ],
+          "use" : "*Use to record the findings on radiological examination of a specified body structure or region, and their interpretation.\r\n\r\nIn practice, the design intent is for the CLUSTER.imaging_exam family of archetypes to be used to record all detailed findings on radiological examination. The family of specialised archetypes are derived from this generic parent archetype, CLUSTER.imaging_exam, designed as a universal pattern for recording any findings in any specified body structure or region and using any modality.\r\n\r\nEach structure- or region-specific specialisation of this parent archetype is intended to be inclusive of all reasonably anticipated and relevant findings. For example, the CLUSTER.imaging_exam-ovary will support recording of all findings that would be expected in reporting on imaging of the ovary using any radiological modality, including the size of the ovary, largest follicle size and the diameter and description of specific follicles. Similarly, CLUSTER.imaging_exam-lymph_node_group will contain data elements required to record specific findings of a lymph node group, including its precise or relative location in the body and the number of lymph nodes in the group. \r\n\r\nIf an appropriate specialisation is not available for a body structure or region, this archetype can be used to record all relevant findings related to the structure or region. \r\n\r\nThis archetype and its related family of specialisations are designed to be nested within the 'Structured imaging findings' SLOT in the OBSERVATION.imaging_exam_result or within other relevant CLUSTER.imaging_exam archetypes, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate. If this archetype of its specialisations need to be extended with further levels of detailed findings, additional instances of the CLUSTER.imaging_exam or its specialisations can be nested in the 'Additional details' SLOT. (en)",
+          "misuse" : "Nicht zur Darstellung von Befunden verwenden, die außerhalb der identifizierten Körperstruktur oder -region beobachtet wurden. Verwenden Sie zu diesem Zweck eine separate Instanz eines oder mehrerer Archetypen aus der Familie CLUSTER.imaging_exam.\r\n\r\nDarf nicht verwendet werden, um Details in Bezug auf die Gesamtbefunde, den Kontext oder technische Details in Bezug auf ein vollständiges Testergebnis einer bildgebenden Untersuchung darzustellen. Verwenden Sie zu diesem Zweck das OBSERVATION.imaging_exam_result. Zum Beispiel Kommentare zur Studienqualität, zu Differenzialdiagnosen und zum Gesamteindruck.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere en fritekstlig beskrivelse, strukturerte detaljer eller funn eller observasjoner ved radiologisk undersøkelse av urinblæren.",
+          "keywords" : [ ],
+          "use" : "Bruk for å registrere en fritekstlig beskrivelse, strukturerte detaljer eller funn eller observasjoner ved radiologisk undersøkelse av urinblæren.\r\n\r\nDenne arketypen har blitt designet for å bli nøstet i SLOT'et \"Strukturerte funn\" i arketypen OBSERVATION.imaging_exam (Bildediagnostisk svar), men kan også bli brukt i enhver annen ENTRY eller CLUSTER-arketype der det er klinisk formålstjenlig.\r\n\r\nBrukes som et rammeverk der CLUSTER-arketyper kan bli nøstet inn i SLOT'et \"Ytterligere detaljer\" i denne arketypen for å legge til flere nivåer av strukturerte bildefunn for tilhørende kroppsstrukturer eller funn som er spesifikke for denne kroppsstrukturen.",
+          "misuse" : "Skal ikke brukes til å registrere funn som er gjort utenom den definerte kroppsstrukturen eller regionen. Bruk andre arketyper i gruppen av CLUSTER.imaging_exam for dette formålet.\r\n\r\nSkal ikke brukes for å registrere detaljer som gjelder overordnede funn og observasjoner, kontekst eller tekniske detaljer som hører til det komplette bildediagnostiske svaret. Bruk OBSERVATION.imaging_exam_result (Bildediagnostisk svar) for dette formålet, for eksempel kommentarer om bildediagnostisk kvalitet, differensialdiagnose og resymé.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record a narrative description, structured details and clinical impression of the findings observed in an imaging examination targeting the bladder.",
+          "keywords" : [ ],
+          "use" : "Use to record a narrative description, structured details and clinical impression of the findings observed in an imaging examination targeting the bladder.\r\n\r\nThis archetype has been designed to be nested in the 'Structured imaging findings' SLOT within the OBSERVATION.imaging_exam_result archetype, but can also be used within other ENTRY or CLUSTER archetypes, where clinically appropriate.\r\n\r\nUse to provide a framework in which CLUSTER archetypes can be nested in the 'Additional details' SLOT within this archetype to record additional nested levels of structured imaging findings for related body substructures or site-specified findings.",
+          "misuse" : "Not to be used to record findings outside the specified body structure or region. Use other archetypes from the CLUSTER.imaging_exam family for this purpose.\r\n\r\nNot to be used to record details related to the overall findings, context or technical details related to a complete imaging examination test result. Use the OBERSERVATION.imaging_exam_result for this purpose. For example, comments on the study quality, differential diagnoses, and overall impression.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.imaging_exam-bladder.v0",
     "differential" : true,
@@ -520,16 +758,86 @@
       "@type" : "C_COMPLEX_OBJECT",
       "rmTypeName" : "CLUSTER",
       "nodeId" : "at0000.1.1",
-      "attributes" : [ ],
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "ARCHETYPE_SLOT",
+          "rmTypeName" : "CLUSTER",
+          "occurrences" : "0..*",
+          "nodeId" : "at0005",
+          "includes" : [ {
+            "@type" : "ASSERTION",
+            "stringExpression" : "archetype_id/value matches {/openEHR-EHR-CLUSTER\\.imaging_exam-lymph_node(-[a-zA-Z0-9_]+)*\\.v0|openEHR-EHR-CLUSTER\\.imaging_exam-lymph_node_group(-[a-zA-Z0-9_]+)*\\.v0|openEHR-EHR-CLUSTER\\.imaging_exam-lesion(-[a-zA-Z0-9_]+)*\\.v0/}",
+            "expression" : {
+              "@type" : "BINARY_OPERATOR",
+              "type" : "BOOLEAN",
+              "operator" : "matches",
+              "leftOperand" : {
+                "@type" : "MODEL_REFERENCE",
+                "type" : "STRING",
+                "precedenceOverriden" : false,
+                "referenceType" : "Attribute",
+                "path" : "archetype_id/value"
+              },
+              "rightOperand" : {
+                "@type" : "CONSTRAINT",
+                "type" : "STRING",
+                "precedenceOverriden" : false,
+                "referenceType" : "Constraint",
+                "item" : {
+                  "@type" : "C_STRING",
+                  "constraint" : [ "/openEHR-EHR-CLUSTER\\.imaging_exam-lymph_node(-[a-zA-Z0-9_]+)*\\.v0|openEHR-EHR-CLUSTER\\.imaging_exam-lymph_node_group(-[a-zA-Z0-9_]+)*\\.v0|openEHR-EHR-CLUSTER\\.imaging_exam-lesion(-[a-zA-Z0-9_]+)*\\.v0/" ]
+                }
+              },
+              "precedenceOverriden" : false
+            },
+            "variables" : [ ]
+          } ],
+          "excludes" : [ ],
+          "closed" : false
+        } ]
+      } ],
       "attributeTuples" : [ ]
     },
     "terminology" : {
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000.1",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { },
-        "de" : { }
+        "en" : {
+          "at0001" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Body structure",
+            "description" : "Identification of the body structure or region examined.",
+            "comment" : "For example: 'Liver', 'Right ankle' or 'Lymph node group'. Coding of the body structure with an appropriate terminology, such as SNOMED CT, is recommended. If the body structure has been fully identified in this 'Body structure' element, then the 'Body site' data element and 'Structured body site' SLOT become redundant."
+          },
+          "at0003" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "Structured body site",
+            "description" : "Structured details about the area of the body under examination.",
+            "comment" : "For example: details about a relative anatomical location, such as '2cm distal to the appendix'. If the body site has been fully identified in the 'Body structure' or 'Body site' data elements, then this SLOT becomes redundant."
+          }
+        },
+        "nb" : {
+          "at0001" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Kroppsstruktur",
+            "description" : "Identifisering av organet eller kroppsdelen som svaret gjelder.",
+            "comment" : "For eksempel \"Lever\", \"Høyre ankel\" eller \"Lymfeknutegruppe\". Det er anbefalt å kode kroppsstruktur med en passende terminologi, som SNOMED CT. Dersom den aktuelle strukturen i kroppen er fullt ut angitt i dette \"Kroppsstruktur\"-elementet er det ikke nødvendig å bruke \"Anatomisk lokalisasjon\" eller \"Strukturert anatomisk lokalisasjon\"."
+          }
+        },
+        "de" : {
+          "at0001" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Körperstruktur",
+            "description" : "Identifizierung der untersuchten Körperstruktur oder Region.",
+            "comment" : "Zum Beispiel: „Leber“, „Rechter Knöchel“ oder „Lymphknotengruppe“. Es wird empfohlen, die Körperstruktur mit einer geeigneten Terminologie, wie SNOMED CT, zu kodieren. Wenn die Körperstruktur in diesem Element „Körperstruktur“ vollständig identifiziert wurde, dann werden das Datenelement „Körperstelle“ und der SLOT „Strukturierte Körperstelle“ überflüssig."
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
